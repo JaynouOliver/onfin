@@ -1,0 +1,13 @@
+pinecone
+python-dotenv
+tqdm
+openai
+exa_py
+google-genai
+deepagents
+langgraph
+langchain
+langchain-google-genai
+langchain-openai
+fastapi
+uvicorn

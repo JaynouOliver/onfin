@@ -1,0 +1,2 @@
+commands 
+export GEMINI_API_KEY

@@ -1,103 +1,206 @@
+"""
+FastAPI endpoint for SEBI Compliance Agent
+
+Endpoints:
+- POST /process_clause - Process a single clause
+- POST /batch_process - Process all chunks for an organization  
+- GET /compliance/{org_name} - Get saved compliance report
+"""
 
 import os
-import sys
-from typing import Optional, List, Dict, Any
-from fastapi import FastAPI, HTTPException
-from pydantic import BaseModel
+import json
+from typing import Optional
+from datetime import datetime
+from fastapi import FastAPI, HTTPException, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
-from langchain_core.messages import HumanMessage, SystemMessage
+from pydantic import BaseModel
 
-# Add project root to path to allow imports
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+from agents.agent1 import process_clause
+from agents.batch_processor import load_chunks, process_all_chunks, save_results
 
-# Import the agent graph and config from agent1.py
-# We need to modify agent1.py slightly to expose the graph object cleanly or import it here.
-# For now, let's assume we can import 'graph' and 'SYSTEM_PROMPT' from agent1
-try:
-    from agents.agent1 import graph, SYSTEM_PROMPT
-except ImportError:
-    # Fallback if running from root
-    sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), "agents"))
-    from agents.agent1 import graph, SYSTEM_PROMPT
 
-app = FastAPI(title="SEBI Compliance Agent API")
+app = FastAPI(
+    title="SEBI Compliance Agent API",
+    description="Generate compliance requirements from SEBI Custodian Regulations",
+    version="1.0.0"
+)
 
-# Allow CORS for frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, replace with specific frontend URL
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-class ChatRequest(BaseModel):
-    message: str
-    thread_id: str = "default_thread"
 
-class ChatResponse(BaseModel):
-    response: str
-    tool_calls: Optional[List[Dict[str, Any]]] = []
+# =============================================================================
+# REQUEST/RESPONSE MODELS
+# =============================================================================
+
+class ClauseRequest(BaseModel):
+    clause_text: str
+    org_name: str = "HDFC AMC"  # Default to HDFC AMC
+    chunk_id: Optional[str] = None
+
+
+class ClauseResponse(BaseModel):
+    chunk_id: Optional[str]
+    clause_type: str
+    is_applicable: bool
+    actionables: list
+    actionable_count: int
+    term_defined: Optional[str]
+    referenced_regulations: list
+
+
+class BatchRequest(BaseModel):
+    org_name: str = "HDFC AMC"
+    limit: int = 0  # 0 = all chunks
+
+
+class BatchStatusResponse(BaseModel):
+    status: str
+    org_name: str
+    message: str
+
+
+# =============================================================================
+# BATCH PROCESSING STATUS
+# =============================================================================
+
+batch_status = {}
+
+
+def run_batch_processing(org_name: str, limit: int):
+    """Background task for batch processing"""
+    global batch_status
+    batch_status[org_name] = {"status": "running", "started": datetime.now().isoformat()}
+    
+    try:
+        chunks_path = os.path.join(os.path.dirname(__file__), "data/1758886606773_chunks.json")
+        chunks = load_chunks(chunks_path)
+        
+        if limit > 0:
+            chunks = chunks[:limit]
+        
+        output = process_all_chunks(chunks, org_name)
+        save_results(output, org_name, os.path.join(os.path.dirname(__file__), "data"))
+        
+        batch_status[org_name] = {
+            "status": "completed",
+            "total_actionables": output["total_actionables"],
+            "applicable_chunks": output["applicable_chunks"],
+            "completed": datetime.now().isoformat()
+        }
+    except Exception as e:
+        batch_status[org_name] = {
+            "status": "error",
+            "error": str(e),
+            "completed": datetime.now().isoformat()
+        }
+
+
+# =============================================================================
+# ENDPOINTS
+# =============================================================================
 
 @app.get("/")
-def health_check():
-    return {"status": "ok", "service": "SEBI Compliance Agent"}
-
-@app.post("/chat", response_model=ChatResponse)
-async def chat_endpoint(request: ChatRequest):
-    try:
-        config = {"configurable": {"thread_id": request.thread_id}}
-        
-        # Check if history exists, if not seed with System Prompt
-        current_state = await graph.aget_state(config)
-        input_messages = [HumanMessage(content=request.message)]
-        
-        if not current_state.values:
-            input_messages.insert(0, SystemMessage(content=SYSTEM_PROMPT))
-            
-        # Stream events
-        # Using astream for async compatibility
-        # Ensure clause_text is passed as it's required by the graph state
-        input_state = {
-            "messages": input_messages,
-            "clause_text": request.message
+def root():
+    return {
+        "name": "SEBI Compliance Agent API",
+        "version": "1.0.0",
+        "endpoints": {
+            "POST /process_clause": "Process a single regulatory clause",
+            "POST /batch_process": "Start batch processing for an organization",
+            "GET /batch_status/{org_name}": "Check batch processing status",
+            "GET /compliance/{org_name}": "Get latest compliance report"
         }
-        events = graph.astream(input_state, config, stream_mode="values")
-        
-        final_response = ""
-        tool_actions = []
-        
-        async for event in events:
-            # Capture final actionable result from the graph state
-            if "final_actionable" in event and event["final_actionable"]:
-                final_response = event["final_actionable"]
+    }
 
-            if "messages" in event:
-                last_msg = event["messages"][-1]
-                
-                # Capture tool calls for frontend visibility
-                if hasattr(last_msg, "tool_calls") and last_msg.tool_calls:
-                    for tool_call in last_msg.tool_calls:
-                        tool_actions.append({
-                            "tool": tool_call['name'],
-                            "args": tool_call['args']
-                        })
-                
-                # Capture final AI response
-                if last_msg.type == "ai" and not last_msg.tool_calls:
-                    final_response = last_msg.content
 
-        return ChatResponse(
-            response=final_response,
-            tool_calls=tool_actions
+@app.post("/process_clause", response_model=ClauseResponse)
+def process_single_clause(request: ClauseRequest):
+    """Process a single regulatory clause and return actionables"""
+    try:
+        result = process_clause(
+            clause_text=request.clause_text,
+            org_name=request.org_name,
+            chunk_id=request.chunk_id or ""
         )
-
+        return ClauseResponse(**result)
     except Exception as e:
-        import traceback
-        traceback.print_exc()
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.post("/batch_process", response_model=BatchStatusResponse)
+def start_batch_process(request: BatchRequest, background_tasks: BackgroundTasks):
+    """Start batch processing of all chunks for an organization"""
+    
+    if request.org_name not in ["HDFC AMC", "Navi AMC"]:
+        raise HTTPException(
+            status_code=400, 
+            detail="org_name must be 'HDFC AMC' or 'Navi AMC'"
+        )
+    
+    # Check if already running
+    if request.org_name in batch_status:
+        if batch_status[request.org_name].get("status") == "running":
+            return BatchStatusResponse(
+                status="already_running",
+                org_name=request.org_name,
+                message="Batch processing is already running for this organization"
+            )
+    
+    # Start background task
+    background_tasks.add_task(run_batch_processing, request.org_name, request.limit)
+    
+    return BatchStatusResponse(
+        status="started",
+        org_name=request.org_name,
+        message=f"Batch processing started for {request.org_name}"
+    )
+
+
+@app.get("/batch_status/{org_name}")
+def get_batch_status(org_name: str):
+    """Get status of batch processing"""
+    if org_name not in batch_status:
+        return {"status": "not_started", "org_name": org_name}
+    return batch_status[org_name]
+
+
+@app.get("/compliance/{org_name}")
+def get_compliance_report(org_name: str):
+    """Get the latest compliance report for an organization"""
+    
+    # Find latest JSON file
+    data_dir = os.path.join(os.path.dirname(__file__), "data")
+    safe_name = org_name.lower().replace(" ", "_")
+    
+    matching_files = []
+    for f in os.listdir(data_dir):
+        if f.startswith(f"compliance_{safe_name}") and f.endswith(".json"):
+            matching_files.append(f)
+    
+    if not matching_files:
+        raise HTTPException(
+            status_code=404, 
+            detail=f"No compliance report found for {org_name}"
+        )
+    
+    # Get the latest file
+    latest_file = sorted(matching_files)[-1]
+    
+    with open(os.path.join(data_dir, latest_file), 'r') as f:
+        return json.load(f)
+
+
+@app.get("/health")
+def health_check():
+    return {"status": "healthy", "timestamp": datetime.now().isoformat()}
+
 
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
-

@@ -1,0 +1,1784 @@
+{
+  "org_name": "HDFC AMC",
+  "total_chunks_processed": 65,
+  "skipped_chunks": 3,
+  "applicable_chunks": 65,
+  "total_actionables": 603,
+  "results": [
+    {
+      "chunk_id": "chunk_002_chI_reg1",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[DOCUMENT] Maintain a record of the date these regulations came into force (date of publication in the Official Gazette).",
+        "[MONITOR] Periodically check for updates or amendments to the SEBI (Custodian) Regulations, 1996.",
+        "[DOCUMENT] Maintain internal policies and procedures that reference and incorporate the SEBI (Custodian) Regulations, 1996."
+      ],
+      "actionable_count": 3,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "I",
+        "regulation": "1",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_003_chI_reg2",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian HDFC AMC uses is duly registered with SEBI and holds a valid certificate of registration.",
+        "[DOCUMENT] Maintain records of the due diligence performed on each custodian prior to engagement.",
+        "[MONITOR] Monitor for any changes in control of the custodians, as defined by SEBI regulations and the Companies Act, 2013, and assess the impact on HDFC AMC's interests.",
+        "[REPORT] Report any material concerns regarding a custodian's compliance with SEBI regulations to the HDFC AMC's Board of Directors and Compliance Committee.",
+        "[DOCUMENT] Maintain copies of all agreements entered into with each custodian, clearly outlining the scope of services, responsibilities, and reporting requirements.",
+        "[MONITOR] Conduct periodic reviews of the custodian's performance against the agreed-upon service levels and regulatory requirements.",
+        "[VERIFY] Verify that the custodian has a robust system for identifying and managing conflicts of interest."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "21",
+        "h",
+        "e",
+        "i",
+        "e",
+        "i",
+        "bc",
+        "h",
+        "21"
+      ],
+      "chunk_metadata": {
+        "chapter": "I",
+        "regulation": "2",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_004_chII_reg3",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian providing services to HDFC AMC is duly registered with SEBI as a custodian of securities, possessing a valid certificate of registration.",
+        "[DOCUMENT] Maintain records of the due diligence performed on each custodian prior to their appointment, including verification of their SEBI registration.",
+        "[MONITOR] Conduct periodic reviews (e.g., annually) of each custodian's SEBI registration status to ensure continued compliance.",
+        "[REPORT] Report any instances of a custodian operating without a valid SEBI registration to the HDFC AMC Board of Directors and Compliance Committee immediately.",
+        "[VERIFY] If a custodian was operating before the commencement of these regulations, verify they applied for registration within the stipulated timeframe (3 months, potentially extended to 6).",
+        "[DOCUMENT] Maintain records of communication with custodians regarding their registration status and any updates or changes to their registration details.",
+        "[MONITOR] Monitor for any SEBI orders or directives against custodians that could impact their ability to provide services to HDFC AMC.",
+        "[REPORT] Report any material findings from the custodian's due diligence or ongoing monitoring to the HDFC AMC's Risk Management Committee."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "1",
+        "2"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "3",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_005_chII_reg4",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodians' registration certificates are valid and have not expired, ensuring compliance with Regulation 9A.",
+        "[MONITOR] Monitor the custodians' registration renewal dates to ensure timely renewal and avoid any lapse in registration.",
+        "[DOCUMENT] Maintain records of the custodians' registration certificates, including the dates of grant and expiry.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians, including verification of registration status.",
+        "[MONITOR] Monitor for any regulatory updates or amendments related to custodian registration requirements that may impact HDFC AMC's oversight responsibilities.",
+        "[REPORT] Report any concerns regarding a custodian's registration status or compliance to the internal compliance team and escalate as necessary.",
+        "[VERIFY] Verify that the information provided by the custodian during the initial due diligence and ongoing monitoring remains accurate and complete."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "3",
+        "3"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "4",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_006_chII_reg5",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian used by HDFC AMC has furnished all information and clarifications requested by the Board (SEBI) during their registration process.",
+        "[VERIFY] Verify that each custodian used by HDFC AMC has appeared before the Board for personal representation, if required, in connection with their certificate of registration.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians prior to their appointment, including verification of their registration status and any information provided to SEBI during their registration.",
+        "[MONITOR] Periodically monitor publicly available information (e.g., SEBI website) to ensure that the custodians used by HDFC AMC maintain their registration status and are not subject to any regulatory actions.",
+        "[MONITOR] Conduct periodic reviews of the custodian's compliance with SEBI regulations, focusing on areas relevant to the services provided to HDFC AMC.",
+        "[REPORT] Report any concerns regarding a custodian's registration status or compliance with SEBI regulations to the HDFC AMC Compliance Committee.",
+        "[DOCUMENT] Maintain records of all communications with custodians regarding their registration status and compliance with SEBI regulations."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "5",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_007_chII_reg6",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian fulfills the capital adequacy requirements as per Regulation 7 of the SEBI Custodian Regulations.",
+        "[VERIFY] Verify that each custodian possesses adequate infrastructure, including office space and computer systems, to effectively discharge their custodial activities.",
+        "[VERIFY] Verify that each custodian has the requisite approvals under any law for providing custodial services in respect of gold or gold related instruments and silver or silver related instruments, given HDFC AMC has Gold and Silver ETFs.",
+        "[VERIFY] Verify that each custodian employs adequate and competent personnel with the necessary experience, capacity, and ability to manage the custodian business.",
+        "[VERIFY] Verify that each custodian has a complete manual outlining the systems and procedures for effective and efficient discharge of their functions and maintenance of arm’s length relationships.",
+        "[DOCUMENT] Maintain records of due diligence performed on each custodian, including verification of their registration status, infrastructure, and personnel.",
+        "[MONITOR] Conduct periodic reviews of each custodian's performance and compliance with SEBI regulations, including capital adequacy, infrastructure, and adherence to documented procedures.",
+        "[REPORT] Report any material deficiencies or concerns identified during the monitoring of custodian activities to the HDFC AMC Board and relevant internal committees."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "7",
+        "3",
+        "1",
+        "3"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "6",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_008_chII_reg6A",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Conduct initial due diligence on potential custodians to assess their \"fit and proper person\" status based on Schedule II of the Securities and Exchange Board of India (Intermediaries) Regulations, 2008, prior to engaging their services.",
+        "[MONITOR] Periodically review the \"fit and proper person\" status of existing custodians, considering any material changes or adverse information that may arise.",
+        "[DOCUMENT] Maintain records of due diligence conducted on custodians, including assessments of their \"fit and proper person\" status.",
+        "[REPORT] Report any concerns regarding a custodian's \"fit and proper person\" status to the HDFC AMC Board and relevant internal committees.",
+        "[DOCUMENT] Maintain a record of the effective date of the Securities and Exchange Board of India (Custodian) Regulations, 1996.",
+        "[MONITOR] Track any amendments or updates to the Securities and Exchange Board of India (Custodian) Regulations, 1996, and assess their impact on HDFC AMC's compliance obligations.",
+        "[DOCUMENT] Maintain internal policies and procedures that reflect the requirements of the Securities and Exchange Board of India (Custodian) Regulations, 1996."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "I"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "6A",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_009_chII_reg7",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain confirmation from each custodian regarding their current net worth, ensuring it meets the minimum requirement of seventy-five crore rupees as per Regulation 7(1).",
+        "[VERIFY] For custodians registered prior to the amendment in 2025, verify their plan and progress towards achieving the seventy-five crore rupee net worth requirement within the stipulated three-year timeframe.",
+        "[DOCUMENT] Maintain records of all communications and confirmations received from custodians regarding their net worth and compliance with Regulation 7(1).",
+        "[MONITOR] Conduct periodic reviews (e.g., quarterly or semi-annually) of each custodian's publicly available financial statements or request updated net worth certifications to ensure continued compliance with the net worth requirement.",
+        "[MONITOR] Establish a process to monitor for any regulatory updates or amendments that may impact the net worth requirements for custodians.",
+        "[REPORT] Include a summary of the custodian's net worth compliance status in the regular compliance reports submitted to the HDFC AMC Board.",
+        "[VERIFY] Verify that the custodian fulfills the net worth requirements independently of capital adequacy requirements for other activities.",
+        "[DOCUMENT] Maintain documentation of the due diligence performed on custodians, including verification of their registration status under SEBI (Mutual Fund) Regulations, 1993, or SEBI (Foreign Institutional Investors) Regulations, 1995."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "6",
+        "6A",
+        "3",
+        "8",
+        "1",
+        "1",
+        "1",
+        "1",
+        "a",
+        "3",
+        "8"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "7",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_010_chII_reg8",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain confirmation from each custodian that they have received intimation from the Board (SEBI) regarding their eligibility for a certificate of registration.",
+        "[DOCUMENT] Maintain records of communication with custodians regarding their registration status with SEBI.",
+        "[MONITOR] Periodically check SEBI website or other official sources to confirm the continued registration status of each custodian.",
+        "[VERIFY] Obtain confirmation from each custodian that they have paid the registration fee to SEBI as per the Second Schedule.",
+        "[DOCUMENT] Maintain records of confirmation received from custodians regarding payment of registration fees.",
+        "[MONITOR] Include a review of custodian's registration fee payment as part of the periodic due diligence process.",
+        "[VERIFY] Obtain a copy of the Certificate in Form B from each custodian.",
+        "[DOCUMENT] Maintain copies of the Certificate in Form B for each custodian.",
+        "[MONITOR] Track the validity and renewal dates of the Certificate in Form B for each custodian.",
+        "[VERIFY] Confirm with each custodian the scope of their registration, specifically whether it includes custody of gold/silver related instruments, given HDFC AMC has Gold and Silver ETFs.",
+        "[DOCUMENT] Maintain documentation confirming the scope of each custodian's registration, particularly regarding gold and silver.",
+        "[MONITOR] Periodically review the custodian's registration scope to ensure it aligns with the assets HDFC AMC has under custody with them (including gold and silver).",
+        "[VERIFY] For custodians registered *before* the 2006 amendment, verify they obtained prior approval from SEBI to provide custodial services for gold and gold-related instruments.",
+        "[DOCUMENT] Maintain copies of SEBI approval letters (if applicable) for custodians providing gold/silver custody services who were registered before the 2006 amendment.",
+        "[MONITOR] If using a custodian registered before 2006 for gold/silver, include verification of their SEBI approval in the annual due diligence review."
+      ],
+      "actionable_count": 15,
+      "term_defined": null,
+      "referenced_regulations": [
+        "3",
+        "6",
+        "1",
+        "3",
+        "6",
+        "i"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "8",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_011_chII_reg9",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian fulfills the capital adequacy requirements as specified in Regulation 7 of the SEBI (Custodian of Securities) Regulations.",
+        "[VERIFY] Verify that each custodian has obtained prior approval from the Board (SEBI) for any change in control.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians regarding change of control approvals.",
+        "[VERIFY] Verify that each custodian abides by the provisions of the SEBI Act and the SEBI (Custodian of Securities) Regulations in the discharge of their custodial functions.",
+        "[DOCUMENT] Maintain a valid agreement with each custodian outlining the scope of custodial services provided.",
+        "[MONITOR] Monitor the custodian's adherence to the terms of the custodial agreement.",
+        "[VERIFY] Verify that each custodian is paying the annual fees as specified in Part A of the Second Schedule of the SEBI (Custodian of Securities) Regulations.",
+        "[DOCUMENT] Maintain records of all information submitted to SEBI by the custodians, and any updates or changes to that information.",
+        "[MONITOR] Monitor for any changes in the information previously submitted by the custodians to SEBI, and ensure that HDFC AMC is promptly informed of such changes.",
+        "[VERIFY] Verify that any additional financial services provided by custodians (who are not banking companies or subsidiaries/associates/joint ventures of banking companies) are compliant with conditions specified by the Board (SEBI).",
+        "[MONITOR] Monitor the activities of custodians to ensure they are only carrying on permissible activities relating to rendering of financial services.",
+        "[REPORT] Report any suspected non-compliance by the custodian with SEBI regulations to the internal compliance team for further investigation and potential reporting to SEBI."
+      ],
+      "actionable_count": 12,
+      "term_defined": null,
+      "referenced_regulations": [
+        "7",
+        "f",
+        "7",
+        "i"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "9",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_012_chII_reg9A",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify the validity period of the custodian's registration certificate with SEBI.",
+        "[MONITOR] Monitor the custodian's registration status with SEBI for any suspensions or cancellations.",
+        "[DOCUMENT] Maintain records of the custodian's registration certificate, including issuance and expiry dates.",
+        "[REPORT] Report any concerns regarding the custodian's registration status to the appropriate internal compliance channels.",
+        "[VERIFY] Verify that the custodian has submitted the correct forms as per regulation 2(h) of the SEBI (Custodian of Securities) Regulations.",
+        "[DOCUMENT] Maintain records of due diligence performed on the custodian, including verification of submitted forms.",
+        "[VERIFY] Verify that the custodian meets the eligibility criteria for registration as specified by SEBI.",
+        "[DOCUMENT] Maintain records of the custodian's eligibility criteria, including net worth, infrastructure, and personnel.",
+        "[MONITOR] Monitor the custodian's ongoing compliance with the eligibility criteria for registration.",
+        "[REPORT] Report any concerns regarding the custodian's eligibility to the appropriate internal compliance channels."
+      ],
+      "actionable_count": 10,
+      "term_defined": null,
+      "referenced_regulations": [
+        "8",
+        "3"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "9A",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_013_chII_reg10",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian is a SEBI-registered custodian.",
+        "[MONITOR] Monitor SEBI website/circulars for any orders rejecting the application of HDFC AMC's custodians.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians, including verification of their SEBI registration status.",
+        "[DOCUMENT] Maintain records of communication with custodians regarding their SEBI registration status.",
+        "[REPORT] Report any concerns regarding a custodian's registration status to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Verify that the custodian has a process to appeal SEBI's decision to reject their application.",
+        "[VERIFY] Verify the validity period of the custodian's registration certificate with SEBI.",
+        "[MONITOR] Track the expiration dates of the registration certificates for each custodian.",
+        "[DOCUMENT] Maintain copies of the custodian's registration certificates.",
+        "[MONITOR] Monitor for timely renewal of registration certificates by the custodians.",
+        "[REPORT] Report any instances of expired or soon-to-expire registration certificates to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Verify that the custodian has applied for renewal of their registration certificate well in advance of the expiry date."
+      ],
+      "actionable_count": 12,
+      "term_defined": null,
+      "referenced_regulations": [
+        "3",
+        "2",
+        "3",
+        "3"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "10",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_014_chII_reg11",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain confirmation from each of the two custodians that their application for a certificate of registration has not been rejected by the Board (SEBI).",
+        "[DOCUMENT] Maintain records of the due diligence performed on each custodian, including verification of their registration status.",
+        "[MONITOR] Periodically (e.g., annually or upon renewal of custodian agreements) re-verify the registration status of each custodian with SEBI.",
+        "[REPORT] Report any instance of a custodian's application rejection (if discovered) to the HDFC AMC Board and Compliance Committee immediately.",
+        "[DOCUMENT] Maintain copies of the registration certificates of both custodians.",
+        "[VERIFY] Verify the validity period of the registration certificates of both custodians."
+      ],
+      "actionable_count": 6,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "11",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_015_chII_reg9A",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian possesses a valid certificate of registration from SEBI, ensuring it has not expired.",
+        "[MONITOR] Track the expiration dates of the custodian's registration certificates and initiate renewal verification well in advance of expiry.",
+        "[DOCUMENT] Maintain records of the custodian's registration certificates, including dates of grant, renewal, and expiry.",
+        "[REPORT] Report any instance of a custodian's registration nearing expiry or lapsing to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Verify that the custodians are adhering to all applicable SEBI regulations and guidelines related to their registration and operations.",
+        "[MONITOR] Conduct periodic due diligence reviews of the custodians to ensure continued compliance with SEBI regulations.",
+        "[DOCUMENT] Maintain records of all due diligence reviews conducted on the custodians, including findings and any corrective actions taken.",
+        "[REPORT] Report any material breaches of SEBI regulations by the custodians to the HDFC AMC Compliance Committee and, if required, to SEBI."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "8",
+        "8",
+        "3",
+        "3"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "9A",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_016_chII_reg2019",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain and review the expiry dates of the certificates of registration for all custodians used by HDFC AMC.",
+        "[MONITOR] Establish a system to track the certificate expiry dates of all custodians, with alerts triggered at least four months prior to expiry.",
+        "[VERIFY] Confirm that each custodian has submitted Form A to SEBI for renewal at least three months before the expiry of their certificate.",
+        "[DOCUMENT] Maintain records of all custodian certificate expiry dates and renewal application submissions.",
+        "[REPORT] Report any instances of custodians failing to apply for renewal at least three months prior to expiry to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Conduct due diligence on custodians applying for certificate renewal, similar to the initial due diligence process for new custodians.",
+        "[DOCUMENT] Maintain records of the due diligence performed on custodians during the renewal process.",
+        "[MONITOR] Review the custodian's ongoing compliance with SEBI regulations as part of the renewal due diligence process.",
+        "[REPORT] Report any material findings from the renewal due diligence process to the HDFC AMC Board and Compliance Committee."
+      ],
+      "actionable_count": 9,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "2019",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_017_chII_reg9B",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain and review the registration certificates of all custodians used by HDFC AMC.",
+        "[VERIFY] Track the expiration dates of each custodian's registration certificate.",
+        "[MONITOR] Establish a process to proactively remind custodians to apply for renewal at least three months before their certificate expires.",
+        "[DOCUMENT] Maintain records of all communication with custodians regarding their registration renewal.",
+        "[REPORT] Report any instance of a custodian failing to apply for renewal in a timely manner to the HDFC AMC Compliance Committee.",
+        "[VERIFY] That the custodian has paid the application fee as specified in Schedule II.",
+        "[MONITOR] Monitor for any regulatory actions or concerns raised by SEBI during the custodian's renewal process, as this could impact HDFC AMC.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians, similar to what would be done for a new custodian appointment.",
+        "[MONITOR] Continuously monitor the operational and financial health of all custodians used by HDFC AMC to identify potential risks of them ceasing operations.",
+        "[DOCUMENT] Establish and maintain a documented contingency plan for the transfer of assets, records, and documents in the event a custodian ceases operations.",
+        "[VERIFY] That the custodian has a plan for orderly transfer of assets, records, and documents in case of ceasing operations.",
+        "[REPORT] Immediately report any indication of a custodian potentially ceasing operations to the HDFC AMC Board and relevant committees.",
+        "[VERIFY] Verify that the custodian is following the directions of the Board with regard to the transfer of records documents or securities that may be in its custody or control relating to its activity as custodian."
+      ],
+      "actionable_count": 13,
+      "term_defined": null,
+      "referenced_regulations": [
+        "9A",
+        "3",
+        "10",
+        "9",
+        "3",
+        "I"
+      ],
+      "chunk_metadata": {
+        "chapter": "II",
+        "regulation": "9B",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_018_chIII_reg12",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has a documented Code of Conduct in line with the Third Schedule of the SEBI Custodian Regulations.",
+        "[VERIFY] Verify that the custodian has implemented procedures to ensure adherence to their Code of Conduct.",
+        "[MONITOR] Monitor custodian's compliance with their Code of Conduct through periodic reviews of their internal controls and audit reports.",
+        "[DOCUMENT] Document the process for reviewing the custodian's Code of Conduct and adherence.",
+        "[REPORT] Report any material breaches of the custodian's Code of Conduct to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Verify that the custodian has implemented adequate segregation of activities to prevent conflicts of interest.",
+        "[VERIFY] Verify that the custodian has segregated the dealing room activities from the fund management activities.",
+        "[MONITOR] Monitor the custodian's organizational structure and reporting lines to ensure effective segregation of duties.",
+        "[DOCUMENT] Document the review of the custodian's segregation of activities framework.",
+        "[REPORT] Report any concerns regarding the custodian's segregation of activities to the HDFC AMC Board.",
+        "[VERIFY] Verify that the custodian has adequate physical and electronic segregation of client assets."
+      ],
+      "actionable_count": 11,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "12",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_019_chIII_reg13",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has segregated its custodial activities from all other business activities.",
+        "[VERIFY] Verify that the officers and employees of each custodian providing custodial services are not engaged in any other activity carried on by the custodian.",
+        "[DOCUMENT] Obtain written confirmation from each custodian regarding the segregation of activities and personnel.",
+        "[MONITOR] Conduct periodic reviews of each custodian's organizational structure and operational procedures to ensure continued segregation of activities.",
+        "[MONITOR] Review custodian's internal audit reports related to segregation of duties.",
+        "[REPORT] Report any instances of non-compliance with segregation requirements to the HDFC AMC Compliance Committee.",
+        "[REPORT] Disclose in the half-yearly compliance report to SEBI that the segregation of activities of the custodians has been verified.",
+        "[DOCUMENT] Maintain a copy of the Securities and Exchange Board of India (Custodian) Regulations, 1996, as amended.",
+        "[MONITOR] Track any amendments or updates to the Securities and Exchange Board of India (Custodian) Regulations, 1996, and assess their impact on HDFC AMC's custodial arrangements.",
+        "[DOCUMENT] Document the date on which the regulations came into force."
+      ],
+      "actionable_count": 10,
+      "term_defined": null,
+      "referenced_regulations": [
+        "i"
+      ],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "13",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_020_chIII_reg14",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has adequate mechanisms for reviewing, monitoring, and evaluating their controls, systems, procedures, and safeguards.",
+        "[VERIFY] Verify that each custodian annually inspects their mechanisms for reviewing, monitoring, and evaluating their controls, systems, procedures, and safeguards by an expert.",
+        "[MONITOR] Monitor the receipt of the annual inspection reports from each custodian.",
+        "[DOCUMENT] Maintain records of the receipt dates of the annual inspection reports from each custodian.",
+        "[REPORT] Report any delays in receiving the annual inspection reports from custodians to the Board.",
+        "[REPORT] Report any material findings or concerns raised in the custodian's annual inspection reports to the Board.",
+        "[MONITOR] Track the timelines for receiving the inspection reports from the custodians to ensure compliance with the three-month deadline."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "1"
+      ],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "14",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_021_chIII_reg15",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodians do not assign or delegate their functions as custodians to any other person unless such person is also a registered custodian.",
+        "[DOCUMENT] Obtain written confirmation from each custodian regarding their compliance with the prohibition of assigning or delegating custodial functions to non-custodians.",
+        "[MONITOR] Conduct periodic due diligence reviews of the custodians to ensure they are not improperly delegating their custodial functions.",
+        "[REPORT] Report any instances of suspected or actual improper delegation of custodial functions by the custodians to the HDFC AMC Compliance Officer and escalate as necessary.",
+        "[VERIFY] If the custodian engages a non-custodian for physical safekeeping of gold or silver, verify that the custodian remains fully responsible to HDFC AMC for the safekeeping, including all associated risks.",
+        "[VERIFY] If the custodian engages a non-custodian for physical safekeeping of gold or silver, verify that all books, documents, and records relating to the gold or silver are maintained at the custodian's premises or are readily available to the Board (SEBI) upon request.",
+        "[VERIFY] If the custodian engages a non-custodian for physical safekeeping of gold or silver, verify that the custodian continues to fulfill all duties to HDFC AMC relating to the gold or silver, except for its physical safekeeping.",
+        "[DOCUMENT] Obtain and maintain copies of any agreements between the custodian and any third party involved in the physical safekeeping of gold or silver."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "15",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_022_chIII_reg2022",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian maintains separate custody accounts for the assets of HDFC AMC's schemes, segregated from the custodian's own assets and those of other clients.",
+        "[VERIFY] Verify that the custodian has a system in place to clearly identify and track the ownership of assets held in custody accounts belonging to HDFC AMC's schemes.",
+        "[MONITOR] Monitor custodian statements and reports to ensure that assets are consistently held in appropriately designated separate custody accounts.",
+        "[DOCUMENT] Maintain records of all custody agreements and related documentation specifying the requirement for separate custody accounts.",
+        "[REPORT] Report any discrepancies or concerns regarding the segregation of assets in custody accounts to the HDFC AMC's compliance officer and escalate to senior management as needed.",
+        "[MONITOR] Conduct periodic audits (internal or external) to confirm the custodian's adherence to the separate custody account requirements.",
+        "[DOCUMENT] Maintain an audit trail of all verification activities related to the separate custody account requirement."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "2022",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_023_chIII_reg16",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has opened a separate custody account for each scheme of HDFC AMC.",
+        "[VERIFY] Verify that the custodian's records clearly identify the beneficial owner of the securities held in each custody account as the specific scheme of HDFC AMC.",
+        "[MONITOR] Conduct periodic reviews of custodian account statements to ensure that assets of different schemes are not commingled.",
+        "[DOCUMENT] Maintain records of all custody account details, including account numbers and the corresponding scheme names.",
+        "[REPORT] Report any instances of potential commingling of assets across different scheme accounts to the Compliance Officer and escalate to senior management if necessary.",
+        "[VERIFY] Verify that the custodian's internal controls prevent the mixing of assets belonging to different clients, including HDFC AMC's various schemes."
+      ],
+      "actionable_count": 6,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "16",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_024_chIII_reg17",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian agreement with HDFC AMC includes clauses specifying the circumstances under which the custodian will accept or release securities, goods, assets, or documents from the custody account.",
+        "[VERIFY] Verify that each custodian agreement includes clauses specifying the circumstances under which the custodian will accept or release monies from the custody account.",
+        "[VERIFY] Verify that each custodian agreement includes clauses specifying the circumstances under which the custodian will receive rights or entitlements on the securities or goods of HDFC AMC's clients.",
+        "[VERIFY] Verify that each custodian agreement includes clauses specifying the circumstances and the manner of registration of securities in respect of each client of HDFC AMC.",
+        "[VERIFY] Verify that each custodian agreement includes details of the insurance provided by the custodian.",
+        "[DOCUMENT] Maintain copies of all custodian agreements, ensuring they address the elements outlined in the regulation.",
+        "[MONITOR] Periodically review custodian agreements to ensure they remain compliant with current regulations and adequately protect HDFC AMC's interests.",
+        "[MONITOR] Conduct periodic due diligence on custodians to ensure they are adhering to the terms of the agreement, including the handling of securities, monies, and registration processes."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "17",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_025_chIII_reg17A",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[DOCUMENT] Maintain records of all agreements with custodians, specifically outlining the agreed-upon dispute resolution mechanism (mediation, conciliation, arbitration).",
+        "[VERIFY] That each custodian agreement includes a dispute resolution mechanism that aligns with SEBI's requirements (mediation, conciliation, and/or arbitration).",
+        "[MONITOR] Track any claims, differences, or disputes arising with custodians and ensure they are addressed through the agreed-upon dispute resolution mechanism.",
+        "[DOCUMENT] Maintain a log of all disputes with custodians, including the date of the dispute, the nature of the dispute, the resolution process followed, and the final outcome.",
+        "[REPORT] Report any material disputes with custodians to the HDFC AMC Board, along with the status of their resolution.",
+        "[DOCUMENT] Document the internal controls framework related to custodian oversight, including policies, procedures, and responsibilities.",
+        "[MONITOR] Conduct periodic reviews of the internal controls framework related to custodian oversight to ensure its effectiveness.",
+        "[VERIFY] That the custodians have adequate internal controls in place to protect the assets held on behalf of HDFC AMC's schemes.",
+        "[REPORT] Report any weaknesses or deficiencies identified in the internal controls related to custodian oversight to the appropriate internal stakeholders (e.g., Risk Management Committee, Audit Committee).",
+        "[VERIFY] That the custodians have the necessary systems and controls to properly handle NRI investments, including compliance with RBI and SEBI regulations related to NRE, NRO, and FCNR accounts.",
+        "[MONITOR] Monitor custodian's compliance with RBI regulations regarding repatriation rules for NRI investments.",
+        "[DOCUMENT] Maintain documentation of the due diligence performed on custodians regarding their ability to handle NRI investments and comply with relevant regulations.",
+        "[REPORT] Report any instances of non-compliance by custodians with RBI or SEBI regulations related to NRI investments to the appropriate authorities, as required."
+      ],
+      "actionable_count": 13,
+      "term_defined": null,
+      "referenced_regulations": [
+        "RBI"
+      ],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "17A",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_026_chIII_reg18",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has implemented adequate internal controls to prevent manipulation of records and documents related to securities and goods (including gold and silver, given the presence of Gold and Silver ETFs).",
+        "[DOCUMENT] Obtain and maintain documentation from each custodian outlining their internal control framework for preventing manipulation of records and documents.",
+        "[MONITOR] Conduct periodic reviews of each custodian's internal control reports (e.g., ISAE 3402/SOC 1 reports) to assess the effectiveness of their controls.",
+        "[MONITOR] Implement a process to monitor news sources and regulatory updates for any reported incidents of record manipulation or control failures at the custodians.",
+        "[REPORT] Report any identified weaknesses in the custodians' internal controls, or any instances of suspected record manipulation, to the HDFC AMC's internal audit committee and compliance team.",
+        "[DOCUMENT] Maintain records of all verification activities, including the scope, methodology, and findings of each review.",
+        "[VERIFY] Verify that the custodians' internal audit functions are independent and adequately resourced to effectively assess and test the internal controls."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "18",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_027_chIII_reg19",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian maintains records containing details of securities, goods, assets, or documents received and released on behalf of HDFC AMC's schemes.",
+        "[VERIFY] Verify that each custodian maintains records containing details of monies received and released on behalf of HDFC AMC's schemes.",
+        "[VERIFY] Verify that each custodian maintains records containing details of rights or entitlements of HDFC AMC's schemes arising from the securities held on their behalf.",
+        "[VERIFY] Verify that each custodian maintains records containing details of registration of securities in respect of HDFC AMC's schemes.",
+        "[VERIFY] Verify that each custodian maintains a ledger for each of HDFC AMC's schemes.",
+        "[VERIFY] Verify that each custodian maintains records containing details of instructions received from and sent to HDFC AMC.",
+        "[VERIFY] Verify that each custodian maintains records of all reports submitted to SEBI.",
+        "[DOCUMENT] Maintain records of communication with custodians regarding their record-keeping practices.",
+        "[MONITOR] Periodically review the custodian's record-keeping practices to ensure compliance with SEBI regulations.",
+        "[REPORT] Report any discrepancies or concerns regarding the custodian's record-keeping to the HDFC AMC's Compliance Officer and escalate to the Board if necessary.",
+        "[VERIFY] Verify that each custodian has intimated to SEBI the place where the records and documents are maintained.",
+        "[DOCUMENT] Maintain records of the custodian's intimation to SEBI regarding the location of records and documents.",
+        "[MONITOR] Periodically confirm with each custodian the location where records and documents are maintained.",
+        "[VERIFY] Verify that each custodian preserves the records and documents maintained for a minimum period of five years.",
+        "[DOCUMENT] Maintain records of the agreement with each custodian specifying the record retention period.",
+        "[MONITOR] Implement a system to track the retention period of records and documents maintained by each custodian.",
+        "[REPORT] Report any instances of non-compliance with the record retention requirements to the HDFC AMC's Compliance Officer and escalate to the Board if necessary.",
+        "[DOCUMENT] Maintain records of the appointment of compliance officers at each custodian.",
+        "[MONITOR] Conduct due diligence to ensure that each custodian has appointed a qualified compliance officer."
+      ],
+      "actionable_count": 19,
+      "term_defined": null,
+      "referenced_regulations": [
+        "1",
+        "1"
+      ],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "19",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_028_chIII_reg19A",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain confirmation from each custodian that they have appointed a compliance officer.",
+        "[VERIFY] Obtain the name and contact information of the compliance officer appointed by each custodian.",
+        "[MONITOR] Periodically review the custodian's compliance officer's credentials and experience to ensure they are qualified for the role.",
+        "[MONITOR] Establish a process to monitor the custodian's compliance with applicable laws and regulations, including reviewing their compliance reports and audit findings.",
+        "[MONITOR] Track investor grievances received by each custodian and assess the effectiveness of their redressal mechanisms.",
+        "[DOCUMENT] Maintain records of all communications and documentation related to the custodian's compliance officer and their compliance activities.",
+        "[REPORT] Report any significant concerns regarding a custodian's compliance program or the effectiveness of their compliance officer to the HDFC AMC's internal compliance team and/or the Board."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "19A",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_029_chIII_reg19B",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has an appropriate governance structure and processes in place, including documented policies and procedures.",
+        "[VERIFY] Verify that each custodian has an appropriate risk management policy and processes, including identification, assessment, and mitigation of risks.",
+        "[VERIFY] Verify that each custodian possesses scalable infrastructure and appropriate technical capacity to handle the volume and complexity of assets under custody.",
+        "[VERIFY] Verify that each custodian has a framework for orderly winding down of its operations, including procedures for asset transfer and client communication.",
+        "[DOCUMENT] Document the due diligence performed on each custodian to assess their compliance with the requirements of clause 19B.",
+        "[MONITOR] Conduct periodic reviews of each custodian's governance structure, risk management policy, infrastructure, and winding down framework.",
+        "[REPORT] Report the findings of the custodian reviews to the Board of Directors of HDFC Asset Management Company Limited."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "19B",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_030_chIII_reg20",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodian has a process in place to promptly respond to information requests from SEBI.",
+        "[DOCUMENT] Document the process for receiving and reviewing information requests from SEBI that are forwarded by the custodian.",
+        "[MONITOR] Monitor the custodian's responsiveness to hypothetical information requests related to HDFC AMC's assets. This can be done through periodic drills or scenario testing.",
+        "[MONITOR] Monitor the custodian's communication channels for any notifications regarding SEBI information requests.",
+        "[REPORT] Report to HDFC AMC's Board any instances where the custodian's response to a hypothetical information request was deemed inadequate or untimely.",
+        "[DOCUMENT] Maintain records of all communications with the custodian regarding SEBI information requests, including the date, time, subject, and outcome.",
+        "[VERIFY] Verify that the custodian has designated personnel responsible for handling SEBI information requests."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "1"
+      ],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "20",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_031_chIII_reg20A",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has a documented process for ensuring compliance with the Investor Charter as specified by the Board.",
+        "[VERIFY] Verify that each custodian has implemented training programs for their staff on the Investor Charter requirements.",
+        "[MONITOR] Monitor custodian's compliance with the Investor Charter through periodic reviews of their processes and procedures.",
+        "[MONITOR] Monitor investor complaints received by the custodian and assess if they indicate any systemic issues related to Investor Charter compliance.",
+        "[DOCUMENT] Document the process for reviewing and approving the custodian's Investor Charter compliance procedures.",
+        "[REPORT] Report to the HDFC AMC Board on the custodian's compliance with the Investor Charter, including any identified gaps or areas for improvement.",
+        "[REPORT] Report any material breaches of the Investor Charter by the custodian to the designated compliance officer within HDFC AMC."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "III",
+        "regulation": "20A",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_032_chIV_reg21",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodians maintain their books of account, records, and documents in the manner specified by SEBI regulations.",
+        "[VERIFY] Verify that the custodians have a process for addressing and resolving complaints received from investors, clients (including HDFC AMC), or any other person, related to their custodial activities.",
+        "[VERIFY] Verify that the custodians are complying with the provisions of the SEBI Act and the SEBI Custodian Regulations.",
+        "[MONITOR] Monitor news and regulatory updates related to the custodians to identify any potential issues or concerns that may warrant further investigation.",
+        "[DOCUMENT] Maintain records of all due diligence performed on the custodians, including the scope and findings of any reviews or investigations.",
+        "[REPORT] Report any material findings or concerns regarding the custodians' compliance with SEBI regulations to the HDFC AMC Board of Directors and relevant internal committees.",
+        "[MONITOR] Conduct periodic reviews of the custodian's internal controls and compliance programs to assess their effectiveness."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "IV",
+        "regulation": "21",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_033_chIV_reg22",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodians have a process in place to receive and acknowledge inspection notices from SEBI with a minimum of ten days' notice, unless waived by SEBI.",
+        "[VERIFY] Verify that the custodians have a process to comply with SEBI inspections, including providing necessary information and access to records.",
+        "[MONITOR] Monitor news and regulatory updates from SEBI to be aware of any inspections being conducted on their custodians.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians, including their inspection history (if available and permissible to obtain).",
+        "[MONITOR] Monitor the custodians' compliance with Regulation 23 regarding their obligations during a SEBI inspection.",
+        "[VERIFY] Verify that the custodians have designated personnel responsible for managing SEBI inspections and providing necessary information.",
+        "[DOCUMENT] Document the process for escalating any concerns identified during the monitoring of custodian compliance with SEBI inspection requirements."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "21",
+        "23",
+        "1",
+        "21"
+      ],
+      "chunk_metadata": {
+        "chapter": "IV",
+        "regulation": "22",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_034_chIV_reg23",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has internal procedures in place to ensure that all documents, records, and information requested by inspecting officers are readily available and produced within a reasonable timeframe.",
+        "[VERIFY] Verify that each custodian provides reasonable access to their premises (or premises used on their behalf) to inspecting officers for the purpose of examining books, records, and documents.",
+        "[DOCUMENT] Maintain records of all requests made to custodians for information, documents, or access to premises related to SEBI inspections.",
+        "[MONITOR] Conduct periodic reviews of the custodians' inspection readiness procedures to ensure they are adequate and up-to-date.",
+        "[MONITOR] Monitor regulatory updates from SEBI regarding inspection procedures and requirements to ensure custodian compliance.",
+        "[REPORT] Report any instances of non-cooperation or delays from custodians during mock inspections or regulatory inspections to the appropriate internal stakeholders (e.g., Legal, Compliance, Senior Management)."
+      ],
+      "actionable_count": 6,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "IV",
+        "regulation": "23",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_035_chIV_reg24",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain confirmation from each custodian regarding their internal process for receiving and acting upon inspection reports from SEBI.",
+        "[VERIFY] Obtain confirmation from each custodian regarding their internal process for receiving and acting upon investigation reports from SEBI.",
+        "[DOCUMENT] Maintain records of all communications with custodians regarding inspection and investigation reports received by them from SEBI.",
+        "[MONITOR] Periodically review the custodian's reported actions taken in response to SEBI inspection and investigation reports, if any, to ensure timely and appropriate remediation.",
+        "[REPORT] Report to the HDFC AMC Board any instances where a custodian's response to a SEBI inspection or investigation report is deemed inadequate or raises concerns.",
+        "[DOCUMENT] Maintain a log of all inspection and investigation reports received by each custodian (as reported by the custodian to HDFC AMC).",
+        "[MONITOR] Conduct periodic due diligence reviews of each custodian's compliance program, including their processes for handling regulatory inspections and investigations."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "IV",
+        "regulation": "24",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_036_chIV_reg25",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[DOCUMENT] Maintain records of all inspection and investigation reports received from custodians or relating to custodian activities.",
+        "[MONITOR] Track the status of any inspection or investigation reports received from or related to custodians.",
+        "[REPORT] Report to the Board or Chairman any inspection or investigation reports received from or related to custodians.",
+        "[DOCUMENT] Document the Board's or Chairman's consideration of inspection or investigation reports.",
+        "[DOCUMENT] Document any actions taken by the Board or Chairman as a result of inspection or investigation reports, including actions under Chapter V of the Securities and Exchange Board of India (Intermediaries) Regulations, 2008.",
+        "[MONITOR] Monitor the implementation and effectiveness of any actions taken by the Board or Chairman in response to inspection or investigation reports.",
+        "[DOCUMENT] Maintain records of the appointment of the auditor for the custodian.",
+        "[VERIFY] Verify that the custodian has appointed an auditor as per regulatory requirements."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "IV",
+        "regulation": "25",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_037_chIV_reg25A",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain written confirmation from each of the two custodians that they will comply with any auditor appointed by the SEBI Board to inspect their books of account, records, documents, or affairs.",
+        "[DOCUMENT] Maintain records of all communications with custodians regarding their obligations to cooperate with SEBI-appointed auditors.",
+        "[MONITOR] Include a clause in the custodian agreements that explicitly states the custodian's obligation to comply with inspections or investigations initiated by an auditor appointed by the SEBI Board.",
+        "[MONITOR] Conduct periodic due diligence reviews of the custodians to assess their preparedness for potential SEBI-initiated inspections or investigations. This includes assessing their internal controls and record-keeping practices.",
+        "[REPORT] In the event that SEBI appoints an auditor to inspect or investigate a custodian, immediately report this information to the HDFC AMC Board and relevant internal stakeholders (e.g., Legal, Compliance, Risk).",
+        "[REPORT] Disclose in the fund's Scheme Information Document (SID) the process for custodian oversight, including the potential for SEBI-appointed auditor inspections and investigations.",
+        "[VERIFY] Verify that the custodian has a process in place to ensure its directors, officers, and employees understand their obligations to cooperate with a SEBI-appointed auditor, as outlined in Regulation 23.",
+        "[DOCUMENT] Document the process by which HDFC AMC will handle any expenses recovered by the SEBI Board related to an inspection or investigation of a custodian."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "21",
+        "23",
+        "25",
+        "24",
+        "21",
+        "24"
+      ],
+      "chunk_metadata": {
+        "chapter": "IV",
+        "regulation": "25A",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_038_chIV_reg25B",
+      "clause_type": "direct_req",
+      "is_applicable": true,
+      "actionables": [
+        "[DOCUMENT] Maintain records of all expenses, including auditor fees, incurred for inspecting the books, records, and documents of each custodian.",
+        "[DOCUMENT] Document the Board's decision-making process regarding the recovery of inspection expenses from custodians, including the rationale for recovering or not recovering such expenses.",
+        "[MONITOR] Track and reconcile all invoices and payments related to custodian inspections and audits.",
+        "[REPORT] Report to the Board the total expenses incurred for custodian inspections and audits during each reporting period.",
+        "[VERIFY] Verify that the invoices received from auditors for custodian inspections are accurate and reasonable.",
+        "[DOCUMENT] Maintain a record of communication with each custodian regarding inspection expenses and any related reimbursements.",
+        "[MONITOR] Monitor the budget allocated for custodian oversight and inspection activities to ensure sufficient funds are available."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "IV",
+        "regulation": "25B",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_039_chV_reg26",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodians have not contravened any provisions of the SEBI Act, rules, or regulations.",
+        "[VERIFY] Verify that the custodians are furnishing all information related to their custodian activity as required by SEBI.",
+        "[VERIFY] Verify that the custodians are submitting periodic returns and reports as required by SEBI.",
+        "[VERIFY] Verify that the custodians are cooperating in any enquiry or inspection conducted by SEBI.",
+        "[VERIFY] Verify that the custodians have updated their systems and procedures as recommended by SEBI.",
+        "[VERIFY] Verify that the custodians are resolving complaints of HDFC AMC's clients (investors) and providing satisfactory replies to SEBI regarding these complaints.",
+        "[VERIFY] Verify that the custodians are adhering to the Code of Conduct specified in the Third Schedule of the SEBI Custodian Regulations.",
+        "[MONITOR] Monitor the custodians' compliance with the SEBI regulations through periodic reviews of their reports and activities.",
+        "[DOCUMENT] Maintain records of all communications and due diligence performed on the custodians, including verification of their compliance with SEBI regulations.",
+        "[REPORT] Report any instances of non-compliance by the custodians to the HDFC AMC's Board of Directors and to SEBI, as required.",
+        "[VERIFY] Verify that the custodians are paying their annual fees to SEBI."
+      ],
+      "actionable_count": 11,
+      "term_defined": null,
+      "referenced_regulations": [
+        "26"
+      ],
+      "chunk_metadata": {
+        "chapter": "V",
+        "regulation": "26",
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_040_chVI",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain confirmation from SEBI that the custodian received at least ten days' notice before any inspection ordered under Regulation 21.",
+        "[DOCUMENT] Maintain records of all communications received from SEBI regarding inspections of the custodian.",
+        "[MONITOR] Track any instances where SEBI conducts inspections of the custodians.",
+        "[REPORT] Report to the HDFC AMC Board any instances where SEBI conducts inspections of the custodians, including details of the notice period provided.",
+        "[VERIFY] In the event of an inspection without prior notice, verify the written order from SEBI justifying the lack of notice.",
+        "[DOCUMENT] Maintain a record of any instances where SEBI conducts inspections of the custodian without prior notice, including the written order from SEBI.",
+        "[MONITOR] Closely monitor custodian activities and communications from SEBI to identify any potential instances of inspections without prior notice.",
+        "[REPORT] Immediately report to the HDFC AMC Board any instances where SEBI conducts inspections of the custodians without prior notice, including the reasons provided by SEBI.",
+        "[VERIFY] Verify that the custodian is cooperating fully with SEBI during any inspection.",
+        "[DOCUMENT] Maintain records of any information requests or findings communicated by SEBI during the course of an inspection.",
+        "[MONITOR] Monitor the progress of any SEBI inspection of the custodian and any potential impact on HDFC AMC's assets held by the custodian.",
+        "[REPORT] Report to the HDFC AMC Board any significant findings or concerns raised by SEBI during the course of an inspection of the custodian."
+      ],
+      "actionable_count": 12,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": "VI",
+        "regulation": null,
+        "section_type": "regulation"
+      }
+    },
+    {
+      "chunk_id": "chunk_042_first_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian utilized by HDFC AMC is duly registered with SEBI as a custodian.",
+        "[DOCUMENT] Maintain records of due diligence performed on each custodian before engagement.",
+        "[MONITOR] Conduct periodic reviews of each custodian's registration status with SEBI.",
+        "[DOCUMENT] Maintain a copy of the application for registration (Form A) submitted by each custodian to SEBI.",
+        "[VERIFY] Verify that the custodian has submitted all supporting documents required by SEBI during their registration process.",
+        "[MONITOR] Monitor for any updates or amendments to the SEBI (Custodian) Regulations, 1996, and assess their impact on HDFC AMC's custodian oversight responsibilities.",
+        "[DOCUMENT] Maintain records of all communications with custodians regarding their SEBI registration and compliance."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "3",
+        "iv"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_043_first_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian used by HDFC AMC possesses a valid certificate of registration from SEBI as a custodian.",
+        "[DOCUMENT] Maintain records of each custodian's SEBI registration number (IN......../....../..... /....).",
+        "[MONITOR] Periodically review the SEBI website to confirm that each custodian's registration remains active and has not been suspended or revoked.",
+        "[DOCUMENT] Maintain copies of the registration certificates for all custodians used by HDFC AMC.",
+        "[MONITOR] Conduct due diligence on potential custodians before engaging their services, including verifying their registration status with SEBI.",
+        "[REPORT] Report any concerns regarding a custodian's registration status to the internal compliance team and escalate to senior management as needed."
+      ],
+      "actionable_count": 6,
+      "term_defined": null,
+      "referenced_regulations": [
+        "8"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_044_second_schedule",
+      "clause_type": "definition",
+      "is_applicable": true,
+      "actionables": [
+        "[DOCUMENT] Maintain a detailed record of all fees paid to each custodian (2 custodians) including the basis of calculation, payment dates, and supporting documentation (invoices, agreements).",
+        "[VERIFY] Verify that the fee structure charged by each custodian aligns with the agreed-upon terms in the custody agreements.",
+        "[MONITOR] Conduct periodic reviews (e.g., quarterly) of custodian fee invoices to identify any discrepancies, unexpected charges, or deviations from the agreed-upon fee schedule.",
+        "[REPORT] Include a summary of custodian fees paid in the periodic reports to the Board of Directors, highlighting any significant changes or variances from budget.",
+        "[DOCUMENT] Maintain records of all communications with custodians regarding fee-related matters, including any disputes or clarifications sought.",
+        "[VERIFY] Verify that the fees charged by the custodian are in compliance with all applicable regulations and guidelines issued by SEBI.",
+        "[MONITOR] Track the overall custodian fee expense as a percentage of AUM (Assets Under Management) to identify any trends or potential cost inefficiencies.",
+        "[REPORT] Disclose custodian fees paid in the relevant sections of the annual report or other investor disclosures, as required by regulations."
+      ],
+      "actionable_count": 8,
+      "term_defined": "FEES PAYABLE UNDER THE REGULATIONS",
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_045_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [],
+      "actionable_count": 0,
+      "term_defined": null,
+      "referenced_regulations": [
+        "h",
+        "e",
+        "i",
+        "e",
+        "i"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_046_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian maintains accurate and up-to-date accounts of securities, gold, gold related instruments, silver and silver related instruments held on behalf of HDFC AMC's schemes.",
+        "[VERIFY] Verify that each custodian is collecting all benefits and rights accruing to HDFC AMC's schemes in respect of securities, gold, gold related instruments, silver and silver related instruments held in custody.",
+        "[VERIFY] Verify that each custodian is keeping HDFC AMC informed of actions taken or to be taken by the issuer of securities, gold, gold related instruments, silver and silver related instruments held in custody.",
+        "[MONITOR] Periodically review custodian reports and reconciliations to ensure accuracy and completeness of holdings information for securities, gold, gold related instruments, silver and silver related instruments.",
+        "[DOCUMENT] Maintain records of all communications with custodians, including instructions, confirmations, and reports received.",
+        "[MONITOR] Conduct periodic due diligence reviews of each custodian's operations, including their compliance with SEBI regulations and internal controls related to safekeeping of assets.",
+        "[REPORT] Report any discrepancies or concerns identified during custodian monitoring to the HDFC AMC's Compliance Officer and escalate as necessary."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "21",
+        "29",
+        "bc",
+        "h",
+        "g",
+        "21",
+        "29"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_047_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian utilized by HDFC AMC possesses a valid certificate of registration from SEBI to operate as a custodian.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians prior to their appointment, including verification of their SEBI registration.",
+        "[MONITOR] Periodically monitor the SEBI website to confirm that the custodians used by HDFC AMC maintain active registration status and are not subject to any disciplinary actions.",
+        "[REPORT] Report any instances of a custodian's registration being suspended or revoked to the HDFC AMC Board of Directors and relevant internal stakeholders.",
+        "[DOCUMENT] Maintain a copy of the application made by each custodian to SEBI for grant of certificate in Form A.",
+        "[VERIFY] Verify that the custodian has paid the application fee as specified in Part A of the Second Schedule."
+      ],
+      "actionable_count": 6,
+      "term_defined": null,
+      "referenced_regulations": [
+        "3",
+        "1",
+        "2",
+        "3"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_048_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain and review copies of the custodian's approvals under applicable laws for providing custodial services related to gold and gold-related instruments, given HDFC AMC has a Gold ETF.",
+        "[VERIFY] Obtain and review copies of the custodian's approvals under applicable laws for providing custodial services related to silver and silver-related instruments, given HDFC AMC has a Silver ETF.",
+        "[DOCUMENT] Maintain records of the approvals received from custodians for gold and silver related instruments.",
+        "[MONITOR] Periodically (e.g., annually or upon renewal) verify the continued validity of the custodian's approvals for gold and silver related instruments.",
+        "[REPORT] Report any instances of non-compliance or lapse in custodian approvals related to gold/silver to the HDFC AMC Compliance Committee.",
+        "[DUE DILIGENCE] Conduct due diligence on potential custodians to ensure they possess the necessary approvals for handling gold and silver ETFs before appointing them."
+      ],
+      "actionable_count": 6,
+      "term_defined": null,
+      "referenced_regulations": [
+        "7",
+        "3",
+        "1",
+        "3",
+        "I"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_049_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian utilized by HDFC AMC maintains a minimum net worth of seventy-five crore rupees, independently of capital adequacy requirements for other activities.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians, including verification of their net worth.",
+        "[MONITOR] Monitor the net worth of each custodian on an ongoing basis (e.g., quarterly or annually) to ensure continued compliance with the minimum requirement.",
+        "[REPORT] Report any instances of a custodian's net worth falling below the required minimum to the appropriate internal stakeholders (e.g., Compliance Committee, Board).",
+        "[VERIFY] Verify that custodians who were granted registration prior to the commencement of the Securities and Exchange Board of India (Custodian) (Amendment) Regulations, 2025, have a plan to raise their net worth to not less than seventy-five crore rupees within three years from such commencement.",
+        "[MONITOR] Monitor the progress of custodians in meeting the net worth requirements within the stipulated timeframe (if applicable).",
+        "[DOCUMENT] Document the process for selecting and appointing custodians, including the due diligence performed on their financial stability and regulatory compliance."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "6",
+        "6A",
+        "3",
+        "8",
+        "1",
+        "1",
+        "1",
+        "1",
+        "a",
+        "3",
+        "8"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_050_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian holds a valid certificate of registration from SEBI in Form B.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians prior to their appointment, including verification of their registration status.",
+        "[MONITOR] Periodically monitor the SEBI website for any updates or changes to the list of registered custodians and their registration status.",
+        "[REPORT] Report any concerns regarding a custodian's registration status or compliance to the internal compliance team and escalate to senior management if necessary.",
+        "[VERIFY] Verify that the custodian has the necessary infrastructure and expertise to handle gold and silver related instruments, given HDFC AMC has Gold and Silver ETFs.",
+        "[DOCUMENT] Maintain records of the scope of services provided by each custodian, specifically noting whether they provide custodial services for securities, goods, gold/gold-related instruments, or silver/silver-related instruments.",
+        "[MONITOR] Conduct periodic due diligence reviews of each custodian to ensure they continue to meet the regulatory requirements and are capable of providing the agreed-upon services.",
+        "[REPORT] Report to the Board of Directors the findings of the periodic due diligence reviews of the custodians, including any identified risks or concerns."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "3",
+        "6",
+        "1",
+        "3",
+        "6",
+        "i"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_051_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian has a valid certificate of registration from SEBI.",
+        "[DOCUMENT] Maintain records of the due diligence performed on each custodian prior to engagement.",
+        "[MONITOR] Monitor for any changes in the custodian's registration status with SEBI (e.g., suspension, revocation).",
+        "[REPORT] Report any concerns regarding a custodian's registration status to the internal compliance team and escalate as necessary.",
+        "[VERIFY] Verify that each custodian meets the capital adequacy requirements as specified by SEBI regulations.",
+        "[MONITOR] Monitor the custodian's financial statements and regulatory filings (to the extent publicly available or provided) for any signs of financial instability that could impact their ability to meet capital requirements.",
+        "[REPORT] Report any concerns regarding a custodian's capital adequacy to the internal compliance team and escalate as necessary.",
+        "[VERIFY] Verify that each custodian has obtained prior approval from SEBI for any change in control.",
+        "[MONITOR] Monitor for any news or announcements regarding potential changes in control at the custodian level.",
+        "[REPORT] Report any potential or actual changes in control at the custodian level to the internal compliance team and escalate as necessary.",
+        "[DOCUMENT] Maintain a copy of the valid custodial agreement with each custodian.",
+        "[VERIFY] Verify that the custodial agreement clearly defines the roles, responsibilities, and liabilities of both HDFC AMC and the custodian.",
+        "[MONITOR] Monitor the custodian's performance against the terms of the custodial agreement.",
+        "[REPORT] Report any breaches of the custodial agreement to the internal compliance team and escalate as necessary.",
+        "[VERIFY] Verify that the custodian is paying the annual fees to SEBI as required.",
+        "[MONITOR] Monitor for any notices from SEBI regarding non-payment of fees by the custodian.",
+        "[REPORT] Report any concerns regarding the custodian's payment of fees to the internal compliance team and escalate as necessary.",
+        "[VERIFY] Verify that the custodian promptly informs HDFC AMC of any false or misleading information previously submitted to SEBI or any changes to previously submitted information.",
+        "[DOCUMENT] Maintain records of all information received from the custodian regarding submissions to SEBI.",
+        "[MONITOR] Monitor for any discrepancies between information provided by the custodian and publicly available information or information received from SEBI directly.",
+        "[REPORT] Report any discrepancies or concerns regarding the custodian's reporting to SEBI to the internal compliance team and escalate as necessary."
+      ],
+      "actionable_count": 21,
+      "term_defined": null,
+      "referenced_regulations": [
+        "7",
+        "8",
+        "3",
+        "3",
+        "2",
+        "3",
+        "f",
+        "3",
+        "7",
+        "i"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_052_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[DOCUMENT] Maintain a record of the effective date of the SEBI (Custodian) Regulations, 1996 and any subsequent amendments.",
+        "[MONITOR] Track any updates or amendments to the SEBI (Custodian) Regulations, 1996.",
+        "[VERIFY] Conduct due diligence to confirm that any custodian considered for appointment has not had their application for a certificate rejected by the Board.",
+        "[DOCUMENT] Maintain records of due diligence performed on potential custodians, including verification of their regulatory standing.",
+        "[MONITOR] Periodically check the SEBI website or other official sources for any updates regarding rejected custodian applications."
+      ],
+      "actionable_count": 5,
+      "term_defined": null,
+      "referenced_regulations": [
+        "8",
+        "8",
+        "9A",
+        "3",
+        "10",
+        "3",
+        "3",
+        "i",
+        "9",
+        "3",
+        "I"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_053_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain and review documentation from each custodian detailing their mechanisms for reviewing, monitoring, and evaluating their controls, systems, procedures, and safeguards.",
+        "[MONITOR] Conduct periodic due diligence reviews of each custodian's control environment, including their systems, procedures, and safeguards.",
+        "[DOCUMENT] Maintain records of all due diligence reviews conducted on custodians, including findings and any corrective actions taken.",
+        "[REPORT] Report any material weaknesses identified in a custodian's control environment to the HDFC AMC Board and relevant internal committees.",
+        "[VERIFY] Obtain confirmation from each custodian that they are conducting annual inspections of their control mechanisms by an expert.",
+        "[VERIFY] Obtain and review a copy of the annual inspection report from each custodian within three months of the inspection date.",
+        "[MONITOR] Track the receipt of annual inspection reports from each custodian to ensure timely delivery.",
+        "[REPORT] Report any significant findings or concerns raised in the custodian's annual inspection reports to the HDFC AMC Board and relevant internal committees.",
+        "[DOCUMENT] Maintain records of all annual inspection reports received from custodians."
+      ],
+      "actionable_count": 9,
+      "term_defined": null,
+      "referenced_regulations": [
+        "1"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_054_third_schedule",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that each custodian is duly registered with SEBI and maintains valid registration.",
+        "[DOCUMENT] Maintain records of due diligence performed on each custodian prior to appointment and periodically thereafter.",
+        "[MONITOR] Monitor the custodian's compliance with SEBI regulations and internal policies through regular reviews of their reports and audit findings.",
+        "[REPORT] Report any material breaches or non-compliance by the custodian to the HDFC AMC Board of Directors and escalate to SEBI as required by regulations.",
+        "[VERIFY] Verify that the custodian has adequate systems and controls in place to safeguard the assets of HDFC AMC's schemes.",
+        "[DOCUMENT] Maintain agreements with each custodian clearly outlining their responsibilities, liabilities, and reporting requirements.",
+        "[MONITOR] Conduct periodic on-site visits or remote audits of the custodian's facilities and operations to assess their internal controls and security measures.",
+        "[REPORT] Disclose in the scheme information document (SID) and annual report the names of the custodians used by HDFC AMC and a summary of their key responsibilities."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "RBI"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_055_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain and review the custodian's internal control framework documentation related to record and document management, including audit trails, to ensure adequacy.",
+        "[VERIFY] Verify that the custodian's internal controls cover both securities and goods (specifically gold and silver, given HDFC AMC's ETFs).",
+        "[MONITOR] Conduct periodic reviews of the custodian's internal control reports and audit findings to identify any weaknesses or areas for improvement.",
+        "[MONITOR] Monitor the custodian's implementation of corrective actions in response to any identified internal control deficiencies.",
+        "[DOCUMENT] Maintain records of all reviews, findings, and corrective actions related to the custodian's internal controls.",
+        "[REPORT] Report any material weaknesses in the custodian's internal controls to the HDFC AMC's Board and Compliance Committee.",
+        "[REPORT] Disclose, as appropriate, the due diligence performed on custodians and any material findings in relevant investor disclosures."
+      ],
+      "actionable_count": 7,
+      "term_defined": null,
+      "referenced_regulations": [
+        "1",
+        "1"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_056_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodians used by HDFC AMC are registered with SEBI and comply with all applicable regulations.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians, including their registration status and compliance history.",
+        "[MONITOR] Periodically review the registration status of custodians with SEBI to ensure continued compliance.",
+        "[REPORT] Report any concerns regarding a custodian's registration or compliance to the internal compliance team and escalate as necessary.",
+        "[VERIFY] Verify that the custodians are providing information requested by SEBI in a timely manner.",
+        "[DOCUMENT] Maintain records of all information requests from SEBI to the custodians and the custodians' responses.",
+        "[MONITOR] Monitor the custodians' responsiveness to SEBI information requests.",
+        "[REPORT] Report any instances of non-compliance by the custodian in providing information to SEBI to the appropriate authorities within HDFC AMC.",
+        "[VERIFY] Verify that the custodians are complying with the Investor Charter specified by SEBI.",
+        "[DOCUMENT] Obtain and review the custodian's Investor Charter to understand their obligations to investors.",
+        "[MONITOR] Monitor the custodian's performance against the Investor Charter, including complaint handling and investor communication.",
+        "[REPORT] Report any breaches of the Investor Charter by the custodian to the appropriate authorities within HDFC AMC.",
+        "[VERIFY] Verify that the custodian maintains books of account, records, and documents as required by SEBI regulations.",
+        "[DOCUMENT] Maintain records of all communications with the custodian regarding record-keeping requirements.",
+        "[MONITOR] Conduct periodic reviews of the custodian's record-keeping practices, potentially through on-site visits or independent audits.",
+        "[REPORT] Report any deficiencies in the custodian's record-keeping practices to the appropriate authorities within HDFC AMC and to SEBI if necessary."
+      ],
+      "actionable_count": 16,
+      "term_defined": null,
+      "referenced_regulations": [
+        "21",
+        "23",
+        "1",
+        "1",
+        "21"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_057_third_schedule",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodian has a process in place to promptly provide all requested books, securities, accounts, records, and other documents to SEBI inspecting officers.",
+        "[VERIFY] Verify that the custodian has a process in place to promptly furnish statements and information relating to their activities to SEBI inspecting officers.",
+        "[MONITOR] Monitor the custodian's responsiveness to hypothetical requests for information similar to what a SEBI inspecting officer might request.",
+        "[DOCUMENT] Maintain records of all communications with the custodian regarding regulatory inspections or requests for information from regulatory bodies.",
+        "[VERIFY] Verify that the custodian provides reasonable access to their premises (and premises occupied on their behalf) to SEBI inspecting officers.",
+        "[VERIFY] Verify that the custodian extends reasonable facilities for examining books, records, and documents to SEBI inspecting officers.",
+        "[MONITOR] Monitor news and regulatory updates for any instances where the custodian has faced scrutiny from SEBI or other regulatory bodies regarding information access or cooperation.",
+        "[REPORT] Report any instances of non-cooperation or delays in providing information by the custodian to the HDFC AMC Compliance team."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_058_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Verify that the custodians appointed by HDFC AMC are registered with SEBI as custodians.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians prior to appointment and periodically thereafter.",
+        "[MONITOR] Monitor the custodian's compliance with SEBI regulations and the terms of the custody agreement on an ongoing basis.",
+        "[REPORT] Report any material breaches of the custody agreement or regulatory non-compliance by the custodian to the HDFC AMC Board and relevant committees.",
+        "[VERIFY] Verify that the custodian has adequate systems and controls in place to safeguard the assets of HDFC AMC's schemes.",
+        "[DOCUMENT] Document the process for selecting and appointing custodians, including the criteria used for evaluation.",
+        "[MONITOR] Conduct periodic reviews of the custodian's performance, including service levels, security measures, and compliance with regulatory requirements.",
+        "[REPORT] Report any concerns regarding the custodian's performance or financial stability to the appropriate internal stakeholders."
+      ],
+      "actionable_count": 8,
+      "term_defined": null,
+      "referenced_regulations": [
+        "21",
+        "23",
+        "25",
+        "24",
+        "21",
+        "24"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_059_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain periodic confirmations from each custodian that they are in compliance with all applicable laws, rules, and regulations related to their custodial activities.",
+        "[MONITOR] Track regulatory changes impacting custodians and assess the potential impact on HDFC AMC's arrangements with its custodians.",
+        "[DOCUMENT] Maintain records of all due diligence performed on custodians, including compliance confirmations and regulatory change assessments.",
+        "[VERIFY] Include a clause in the custodian agreement requiring the custodian to promptly inform HDFC AMC of any information requests received from SEBI.",
+        "[MONITOR] Establish a process to track information requests made by SEBI to the custodians and ensure timely responses.",
+        "[DOCUMENT] Maintain records of all information requests from SEBI related to the custodian's activities and the custodian's responses.",
+        "[VERIFY] Conduct background checks and due diligence on potential custodians to assess their integrity and history of regulatory compliance.",
+        "[MONITOR] Implement a process for independently verifying the accuracy of information provided by the custodian to SEBI, where possible.",
+        "[DOCUMENT] Maintain records of all due diligence performed on custodians, including background checks and verification of information provided to SEBI.",
+        "[VERIFY] Obtain a schedule of all periodic returns and reports that the custodian is required to submit to SEBI.",
+        "[MONITOR] Track the custodian's submission of these reports to SEBI to ensure timely filing.",
+        "[DOCUMENT] Maintain copies of the custodian's reports submitted to SEBI, where available.",
+        "[VERIFY] Include a clause in the custodian agreement requiring the custodian to fully cooperate with any SEBI enquiry or inspection.",
+        "[MONITOR] In the event of a SEBI enquiry or inspection of the custodian, monitor the custodian's cooperation and provide assistance as needed.",
+        "[DOCUMENT] Maintain records of any SEBI enquiries or inspections of the custodian and the custodian's response.",
+        "[VERIFY] Request periodic updates from the custodian regarding any recommendations received from SEBI to update their systems and procedures.",
+        "[MONITOR] Assess the custodian's implementation of SEBI's recommendations and the potential impact on HDFC AMC.",
+        "[DOCUMENT] Maintain records of SEBI's recommendations to the custodian and the custodian's implementation plan.",
+        "[VERIFY] Establish a process for receiving and tracking complaints related to the custodian's services.",
+        "[MONITOR] Monitor the custodian's handling of client complaints and their responsiveness to SEBI inquiries related to complaints.",
+        "[DOCUMENT] Maintain records of all complaints related to the custodian's services and the custodian's resolution.",
+        "[VERIFY] Conduct periodic reviews of the custodian's internal controls and compliance procedures to assess their adherence to the Code of Conduct.",
+        "[MONITOR] Monitor for any reports of misconduct or breaches of the Code of Conduct by the custodian.",
+        "[DOCUMENT] Maintain records of all reviews of the custodian's internal controls and compliance procedures.",
+        "[VERIFY] Obtain confirmation from the custodian that they have paid their annual fees to SEBI.",
+        "[MONITOR] Track the custodian's payment of annual fees to SEBI.",
+        "[DOCUMENT] Maintain records of the custodian's confirmation of payment of annual fees to SEBI."
+      ],
+      "actionable_count": 27,
+      "term_defined": null,
+      "referenced_regulations": [
+        "26"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_060_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[DOCUMENT] Maintain records of any exemptions granted by the Board under sub-regulation (1), including the conditions specified by the Board.",
+        "[MONITOR] Track the expiry dates of any exemptions granted and ensure compliance with the conditions attached to the exemptions on a continuous basis.",
+        "[REPORT] Report to the internal compliance team any instances of non-compliance with the conditions of exemptions granted by the Board.",
+        "[VERIFY] Verify that any new products, processes, services, or business models deployed under a regulatory sandbox are within the scope of the exemption granted by the Board.",
+        "[DOCUMENT] Maintain documentation outlining the scope and limitations of any regulatory sandbox participation.",
+        "[MONITOR] Monitor the performance and impact of any products, processes, services, or business models deployed under a regulatory sandbox."
+      ],
+      "actionable_count": 6,
+      "term_defined": null,
+      "referenced_regulations": [
+        "2",
+        "3",
+        "1"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_061_third_schedule",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain and review the custodian's documented policies and procedures regarding adherence to the SEBI (Custodian) Regulations, 1996.",
+        "[DOCUMENT] Maintain records of the initial and ongoing due diligence performed on each custodian, including verification of their understanding of and adherence to relevant regulations.",
+        "[MONITOR] Periodically review custodian's compliance reports or certifications related to adherence to the SEBI (Custodian) Regulations, 1996.",
+        "[VERIFY] As part of initial due diligence, obtain documentation from each custodian confirming their category (Foreign bank, Domestic bank, Financial Institution, or Other) and the basis for that classification.",
+        "[DOCUMENT] Maintain a record of each custodian's category and the supporting documentation.",
+        "[MONITOR] Periodically (e.g., annually) re-verify the custodian's category to ensure it remains accurate, especially in light of potential changes in their business or regulatory environment.",
+        "[VERIFY] Obtain and review the certificate of incorporation, memorandum and articles of association (or equivalent documents) for each custodian.",
+        "[VERIFY] Verify the date and place of incorporation/establishment and date of commencement of business for each custodian.",
+        "[DOCUMENT] Maintain copies of the custodian's incorporation documents and a record of the verified dates.",
+        "[MONITOR] Periodically (e.g., every 3-5 years, or upon notification of a material change) re-verify the custodian's incorporation documents to ensure they remain valid and unchanged.",
+        "[VERIFY] Obtain a detailed description of the custodian's activities, both in India and overseas, with a focus on custody-related services.",
+        "[VERIFY] Assess whether the custodian's activities align with HDFC AMC's requirements and risk tolerance.",
+        "[DOCUMENT] Maintain a record of the custodian's activities and the assessment performed.",
+        "[MONITOR] Annually review the custodian's activities to identify any material changes that could impact HDFC AMC.",
+        "[VERIFY] Obtain a list of all affiliates and subsidiaries of each custodian operating in India, along with a description of their activities.",
+        "[VERIFY] Assess any potential conflicts of interest arising from the custodian's affiliates or subsidiaries.",
+        "[DOCUMENT] Maintain a record of the custodian's affiliates and subsidiaries, their activities, and the conflict of interest assessment.",
+        "[MONITOR] Annually review the custodian's list of affiliates and subsidiaries to identify any new potential conflicts of interest.",
+        "[VERIFY] Obtain confirmation of the custodian's registration with SEBI and/or RBI (as applicable).",
+        "[VERIFY] Verify the validity and status of the custodian's registration(s).",
+        "[DOCUMENT] Maintain copies of the custodian's registration certificates or other evidence of registration.",
+        "[MONITOR] Periodically (e.g., annually) re-verify the custodian's registration status with SEBI/RBI."
+      ],
+      "actionable_count": 22,
+      "term_defined": null,
+      "referenced_regulations": [
+        "Reserve Bank of India"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_062_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain written confirmation from each custodian regarding any instances of violation or non-adherence to securities laws, codes of ethics/conduct, or business rules by the custodian, its parent, holding company, or affiliate.",
+        "[DOCUMENT] Maintain records of the custodian's written confirmations regarding violations and non-adherence.",
+        "[MONITOR] Conduct periodic due diligence reviews of each custodian, including searches of regulatory databases and news sources, to identify any potential violations or non-adherence issues not disclosed by the custodian.",
+        "[REPORT] Report any identified instances of custodian violations or non-adherence to the HDFC AMC Compliance Committee and escalate as necessary.",
+        "[VERIFY] Obtain the latest audited financial statements from each custodian.",
+        "[DOCUMENT] Maintain copies of the custodian's audited financial statements, including documentation of their net worth and paid-up capital.",
+        "[MONITOR] Annually review the custodian's financial statements to assess their financial stability and ability to meet their obligations.",
+        "[REPORT] Report any concerns regarding a custodian's financial stability to the HDFC AMC Risk Management Committee.",
+        "[VERIFY] Obtain a detailed list of services provided by each custodian to HDFC AMC.",
+        "[DOCUMENT] Maintain a record of the services provided by each custodian, as outlined in the custody agreements and related documentation.",
+        "[MONITOR] Periodically review the services provided by each custodian to ensure they align with HDFC AMC's needs and regulatory requirements.",
+        "[REPORT] Report any discrepancies or concerns regarding the services provided by the custodians to the HDFC AMC Operations team.",
+        "[VERIFY] Obtain details regarding the infrastructure of each custodian, including owned and leased space, locations, and copies of title/lease agreements.",
+        "[DOCUMENT] Maintain records of the custodian's infrastructure details, including location, size, and ownership/lease documentation.",
+        "[MONITOR] Periodically review the custodian's infrastructure details to ensure they have adequate resources to securely store and manage HDFC AMC's assets.",
+        "[REPORT] Report any concerns regarding the custodian's infrastructure or security measures to the HDFC AMC Compliance Committee."
+      ],
+      "actionable_count": 16,
+      "term_defined": null,
+      "referenced_regulations": [
+        "iv"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_063_third_schedule",
+      "clause_type": "definition",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain and review documentation from each custodian detailing their hardware, software, and communication systems used for custody services provided to HDFC AMC, including their capabilities, functions, and locations.",
+        "[VERIFY] Obtain and review documentation from each custodian detailing their data storage and backup procedures and sites, including their capabilities, functions, and locations.",
+        "[VERIFY] Obtain and review documentation from each custodian detailing their disaster recovery systems and procedures.",
+        "[DOCUMENT] Maintain a record of the custodian's provided documentation regarding their automatic data processing systems, record keeping, data storage, backup procedures, and disaster recovery systems.",
+        "[MONITOR] Periodically (e.g., annually or upon significant system changes) review the custodian's documentation on their automatic data processing systems, record keeping, data storage, backup procedures, and disaster recovery systems to ensure they remain adequate and up-to-date.",
+        "[MONITOR] Conduct due diligence to ensure the custodian's systems are adequately protected against cyber threats and data breaches.",
+        "[REPORT] Report any material deficiencies identified in the custodian's automatic data processing systems, record keeping, data storage, backup procedures, or disaster recovery systems to the HDFC AMC's Board and relevant internal committees.",
+        "[DOCUMENT] Maintain a copy of the custodian's declaration statement provided during their registration process with SEBI.",
+        "[VERIFY] Establish a process to verify that the custodian notifies HDFC AMC of any changes in the information provided in their application to SEBI.",
+        "[MONITOR] Periodically (e.g., annually) request confirmation from each custodian that all information previously provided to SEBI remains accurate and up-to-date, or request details of any changes.",
+        "[DOCUMENT] Maintain records of all communications with custodians regarding updates to their SEBI application information.",
+        "[VERIFY] Ensure that the custodian is in compliance with the Securities and Exchange Board of India Act, 1992, and the Securities and Exchange Board of India (Custodian) Regulations, 1996.",
+        "[REPORT] Report any instances of non-compliance by the custodian with the Securities and Exchange Board of India Act, 1992, and the Securities and Exchange Board of India (Custodian) Regulations, 1996 to the HDFC AMC's Board and relevant internal committees."
+      ],
+      "actionable_count": 13,
+      "term_defined": "SECURITIES AND EXCHANGE BOARD OF INDIA \n(CUSTODIAN) REGULATIONS, 1996",
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_064_third_schedule",
+      "clause_type": "internal_ref",
+      "is_applicable": true,
+      "actionables": [],
+      "actionable_count": 0,
+      "term_defined": null,
+      "referenced_regulations": [
+        "12"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_065_third_schedule",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain written confirmation from each custodian annually that they adhere to the highest standards of integrity, fairness, and professionalism in their duties.",
+        "[MONITOR] Conduct periodic due diligence reviews of each custodian's operations to assess their adherence to ethical standards and professional conduct.",
+        "[DOCUMENT] Maintain records of due diligence reviews, including findings and any corrective actions taken.",
+        "[REPORT] Report any concerns regarding a custodian's integrity, fairness, or professionalism to the HDFC AMC Compliance Committee and escalate to the Board if necessary.",
+        "[VERIFY] Obtain confirmation from custodians regarding their procedures for prompt distribution of dividends, interest, and other income accruals.",
+        "[MONITOR] Reconcile income received from custodians with HDFC AMC's records to ensure timely and accurate distribution to investors.",
+        "[DOCUMENT] Maintain records of income reconciliation processes and any discrepancies identified.",
+        "[REPORT] Report any delays or discrepancies in income distribution to the HDFC AMC Compliance Committee and the custodian for immediate resolution.",
+        "[VERIFY] Confirm that each custodian provides a complete audit trail for all movements of securities, gold/silver (if applicable), and cash in and out of HDFC AMC's accounts.",
+        "[MONITOR] Regularly review the audit trails provided by custodians to identify any unauthorized or suspicious transactions.",
+        "[DOCUMENT] Maintain copies of all audit trails received from custodians.",
+        "[REPORT] Report any discrepancies or suspicious transactions identified in the audit trails to the HDFC AMC Compliance Committee, the custodian, and relevant authorities if required.",
+        "[VERIFY] Conduct due diligence to ensure each custodian maintains adequate infrastructure and well-documented operating procedures and systems to provide custodial services to HDFC AMC's satisfaction.",
+        "[MONITOR] Periodically review the custodian's infrastructure and operating procedures to ensure they remain adequate and up-to-date.",
+        "[DOCUMENT] Maintain records of due diligence reviews of custodian infrastructure and operating procedures.",
+        "[REPORT] Report any concerns regarding a custodian's infrastructure or operating procedures to the HDFC AMC Compliance Committee and the custodian for remediation."
+      ],
+      "actionable_count": 16,
+      "term_defined": null,
+      "referenced_regulations": [
+        "Reserve Bank of India"
+      ],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_066_third_schedule",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain written confirmation from each custodian annually that they have not engaged in any unfair competition as defined by the regulations.",
+        "[MONITOR] Conduct periodic due diligence on custodians to identify any potential instances of unfair competition, including reviewing pricing structures and service offerings.",
+        "[DOCUMENT] Maintain records of all due diligence performed on custodians related to unfair competition.",
+        "[REPORT] Report any suspected instances of unfair competition by custodians to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Request custodians to provide evidence supporting any claims made regarding their qualifications, capabilities, or achievements during initial onboarding and periodically thereafter.",
+        "[MONITOR] Review marketing materials and client communications from custodians for any potentially exaggerated or misleading statements.",
+        "[DOCUMENT] Maintain records of all representations made by custodians regarding their qualifications, capabilities, and achievements.",
+        "[REPORT] Report any concerns regarding potentially exaggerated statements made by custodians to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Implement a process to independently verify the accuracy of information provided by custodians in reports and other documents submitted to HDFC AMC.",
+        "[MONITOR] Conduct regular audits of custodian reports and documentation to identify any discrepancies or potential omissions of material facts.",
+        "[DOCUMENT] Maintain a record of all information received from custodians, including reports, documents, and communications.",
+        "[REPORT] Report any suspected instances of untrue statements or suppression of material facts by custodians to the HDFC AMC Compliance Committee and, if necessary, to SEBI.",
+        "[VERIFY] Obtain and review the custodian's corporate governance policies and procedures to ensure they align with industry best practices and regulatory requirements.",
+        "[MONITOR] Conduct periodic reviews of the custodian's corporate governance practices, including board composition, risk management framework, and internal controls.",
+        "[DOCUMENT] Maintain records of all reviews conducted on the custodian's corporate governance policies and practices.",
+        "[REPORT] Report any concerns regarding the custodian's corporate governance practices to the HDFC AMC Compliance Committee.",
+        "[VERIFY] Establish a service level agreement (SLA) with each custodian that includes specific timelines and procedures for responding to inquiries and resolving grievances.",
+        "[MONITOR] Track the custodian's performance against the agreed-upon SLAs for responding to inquiries and resolving grievances.",
+        "[DOCUMENT] Maintain a log of all inquiries and grievances submitted to custodians, along with the custodian's responses and resolution timelines.",
+        "[REPORT] Report any significant delays or unresolved grievances to the HDFC AMC Compliance Committee."
+      ],
+      "actionable_count": 20,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    },
+    {
+      "chunk_id": "chunk_067_third_schedule",
+      "clause_type": "external_ref",
+      "is_applicable": true,
+      "actionables": [
+        "[VERIFY] Obtain written confirmation from each custodian that their compliance officer has adequate freedom and powers to discharge their duties effectively.",
+        "[MONITOR] Periodically review the custodian's compliance officer's reporting lines and access to information to ensure continued independence.",
+        "[DOCUMENT] Maintain records of due diligence performed on custodians regarding the freedom and powers of their compliance officers.",
+        "[REPORT] Report any concerns regarding the independence or effectiveness of a custodian's compliance officer to the HDFC AMC Compliance team and escalate as necessary.",
+        "[VERIFY] Obtain written confirmation from each custodian that their senior management has access to all relevant information about the business on a timely basis.",
+        "[MONITOR] Conduct periodic meetings with each custodian's senior management to assess their understanding of key risks and compliance matters.",
+        "[DOCUMENT] Maintain records of communications with custodians' senior management, including meeting minutes and any information shared.",
+        "[REPORT] Report any concerns regarding the access of custodian's senior management to relevant information to the HDFC AMC Compliance team and escalate as necessary.",
+        "[VERIFY] Verify the custodian's internal reporting mechanisms to ensure timely dissemination of information to senior management."
+      ],
+      "actionable_count": 9,
+      "term_defined": null,
+      "referenced_regulations": [],
+      "chunk_metadata": {
+        "chapter": null,
+        "regulation": null,
+        "section_type": "schedule"
+      }
+    }
+  ],
+  "timestamp": "2025-11-30T11:49:47.732146"
+}
